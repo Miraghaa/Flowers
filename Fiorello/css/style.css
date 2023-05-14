@@ -1,0 +1,336 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.headpage img{
+   height: 25%;
+   margin-top: 15%;
+   margin-left: 58%;
+   color: black;
+   cursor: pointer;
+}
+.pages {
+   margin: 4% auto;
+}
+.pages .a{
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #1b1b1b;
+}
+.ai{
+    font-size: 17px;
+    padding-left: 20px;
+    color: #1b1b1b;
+}
+.pages .home{
+    text-decoration: underline;
+}
+.pages span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    color: #1b1b1b;
+    font-weight: 500;
+}
+.pages .ai:hover{
+    color: orange;
+}
+
+
+.pages a:hover{
+    text-decoration: underline;
+}
+.author{
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
+    background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 70vh;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+     
+}
+.elementwrite{
+    height: 70vh;
+    width: 73.8%;
+    padding-top: 6% ;
+    padding-left: 15%
+}
+.elementwrite h1{
+    font-family: 'Playfair Display', serif;
+    width: 44%;
+    text-align: left;
+    font-size: 61px;
+    font-weight: 400;  
+    
+} 
+.elementwrite span{
+    font-family: 'Playfair Display', serif;
+    color: red;
+    font-weight: 400;
+}
+.elementwrite p{
+    font-family: 'Lora', serif;
+    width: 47%;
+    line-height: 1.5;
+    color: #6d6a6a;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 3% 0%;
+}
+.pagesflowers{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15% 0%;
+}
+.flowers a{
+  padding: 0px 15px 0px 0px ;
+}
+.flowers .all{
+ color: #f34f3f;
+}
+.flw{
+    transition: 2sn;
+}
+.flw:hover{
+    color: #f34f3f;
+}
+.select select{
+    border: none;
+    font-size: 20px;
+    outline-style: none;
+}
+.checkbox{
+    padding: 1% 15% 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 21%;
+    text-align: center;
+    padding-bottom: 4%;
+    
+}
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+    margin-bottom: 7%;
+    transition: 0.5s;
+}
+.box a{
+    font-weight: inherit;
+    padding-bottom: 5%;
+    color: #1b1b1b;
+    font-size: 12px;
+}
+.box span{
+    color: #afafaf;
+    font-size: 12px;
+    font-weight: inherit;
+    
+}
+.checkbox .box .scarlet{
+    text-decoration: line-through;
+}
+.box img:hover{
+    transform: scale(1.1);
+    
+}
+.video{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;  
+    padding-bottom: 8%;
+}
+.love{
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 35%;
+    
+}
+.love img{
+    width: 100%;
+    height: 40vh;
+    transition: 0.5s;
+    
+}
+.videowrite{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.videowrite h1{
+    width: 51%;
+    font-family: 'Playfair Display', serif;
+    color: #2b2b2b;
+    font-size: 38px;
+    font-weight: 400;
+}
+.videowrite span{
+    font-family: 'Playfair Display', serif;
+    color: #f34f3f;
+    font-size: 38px;
+    font-weight: 400;
+}
+.videowrite .p1{
+    font-family: 'Lora', serif;
+    color: #6d6a6a;
+    width: 58%;
+    font-size: 22px;
+    margin: 2% 0%;
+    font-weight: 400;
+} 
+.videowrite p{
+    font-family: 'Lora', serif;
+    color: #6d6a6a;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1% 0% 1%;
+}
+.love img:hover{
+    transform: scale(1.1);
+}
+.flowersexperst{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.flowersexperst h1{
+    font-family: 'Playfair Display', serif;
+    color: #2b2b2b;
+    font-size: 38px;
+    font-weight: 400;
+}
+.flowersexperst p{
+    font-family: 'Lora', serif;
+    padding-top: 2%;
+    color: #6d6a6a;
+    margin-left: 33%;
+    font-size: 19px;
+    font-weight: 400;
+    width: 35%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.experstbox{
+    display: flex;
+    justify-content: space-between;
+     padding: 5% 18% 0%;
+}
+.experstbox h6{
+    color: #1b1b1b;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 8%;
+}
+.experstbox span{
+    color: #afafaf;
+    font-size: 12px;
+    padding: 0px 0px 0px;
+}
+.fixed{
+     background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+     background-attachment: fixed;
+      text-align: center;
+      padding-top: 10%;
+      padding-bottom: 11.5%;
+}
+.fixed h3{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+.fixed input{
+    padding: 1% 15% 1% 1%;
+    border: none;
+    outline: none;
+}
+.fixed button{
+    color: #fff;
+    padding: 1% 2% 1% 2%;
+    background-color: #f34f3f;
+    border: none;
+    outline: none;
+    margin-left: -1%;
+}
+.blog{
+    padding: 7% 0% 5%;
+    text-align: center;
+    background: #f8f8f8;
+}
+.blog h2{
+    font-family: 'Playfair Display', serif;
+    color: #2b2b2b;
+    font-size: 38px;
+    font-weight: 400;
+}
+.blog p{
+    font-family: 'Lora', serif;
+    color: #6d6a6a;
+    font-size: 19px;
+    margin-left: 32%;
+    font-weight: 400;
+    width: 35%;
+    line-height: 1.5;
+    padding: 2% 0;
+}
+.boxss{
+    padding: 0% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.blogbox{
+    width: 32%;
+    overflow: hidden;
+}
+.blogbox img{
+    width: 100%;
+    transition: 1s;   
+}
+.blogbox img:hover{
+    transform: scale(1.1);
+}
+.blogwrite{
+    padding-top: 5%;
+}
+.blogbox a{
+    font-family: 'Playfair Display', serif;
+    color: #2b2b2b;
+    font-size: 22px;
+    font-weight: 400;
+}
+.blogbox p{
+    font-family: 'Lora', serif;
+    color: #6d6a6a;
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    margin-left: 10%;
+}
+.finish{
+    text-align: center;
+    padding: 5% 0%;
+}
+.finish p{
+    font-family: 'Lora', serif;
+    color: #4b4747;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 2% 0%;
+}
+.finish .s1{
+    color: #1b1b1b;
+    font-size: 12px;
+    font-weight: 500;
+}
+.finish .s2{
+    color: #afafaf;
+    font-size: 12px;
+    font-weight: 500;
+}
